@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blog>
+   <bloginfo>
+     <blogdate>
+         23-5-2019
+    </blogdate>
+   <blog_author>
+   Peter Jones
+  </blog_author>
+  <blog_description>
+   Tech and AI
+  </blog_description>
+  </bloginfo>
+</blog>

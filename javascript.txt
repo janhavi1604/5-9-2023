@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+
+var mystring="Peter goes to school today";
+var newstring=mystring.concate("It is raining");
+document.write(newstring);
+
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+calldetails={"callId":1,"senderNumber":"9988321456","receiverNumber":"9854127632","message":"Hay there!","messageLength":12,"callQuality":"Excellent","callDeopRate":"20%",displayCalldetails:function()
+{
+
+ console.log("call id"+this.callId)
+  console.log("senderNumber"+this.senderNumber)
+console.log("receiverNumber"+this.receiverNumber)
+console.log("message"+this.message)
+console.log("messageLength"+this.messageLength)
+console.log("callQuality" +this.callQuality)
+
+}}
+console.log(calldetails)
+console.log(calldetails.callId)
+calldetails.call_plan="3GB/day"
+console.log(calldetails)
+
+calldetails.displayCalldetails()
+
+</script>
+</head>
+<body>
+</body>
+</html>

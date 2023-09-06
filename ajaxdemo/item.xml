@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+    <itemdetails>
+    <itemname>
+    coffee
+    </itemname>
+    <price>
+    20
+    </price>
+    </itemdetails>
+      <itemdetails>
+    <itemname>
+    Tea
+    </itemname>
+    <price>
+    30
+    </price>
+    </itemdetails>
+
+
+</item>

@@ -1,0 +1,65 @@
+<html>
+<head>
+<script>
+
+var callarray=[]
+
+function callQuality(callid,sender,receiver,droprate)
+{
+
+   this.callid=callid
+   this.sender=sender
+   this.receiver=receiver
+   this.droprate=droprate
+
+
+}
+
+function savecallQuality(i)
+{
+
+  callarray.push(i)
+}
+
+function displaycallQuality()
+{
+ for(x of callarray)
+{
+
+  console.log(x)
+} 
+
+}
+
+savecallQuality(new callQuality(1,"Peter","Sam",40))
+
+savecallQuality(new callQuality(2,"Mike","Robbert",50))
+displaycallQuality()
+console.log(callarray)
+
+function checkdroprate(callarray)
+{
+ 
+  if(callarray.droprate>30)
+{
+  console.log("drop rate above level")
+}
+
+}
+
+checkdroprate(callarray)
+
+var arr=[1,2,3,4,5]
+function add(a)
+{
+ console.log(a+5)
+}
+arr.forEach(add)
+
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
